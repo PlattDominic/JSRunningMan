@@ -13,30 +13,34 @@
 
         .action-btn 
         {
-            width: 15rem;
-            height: 5rem;
+            width: 10rem;
+            height: 3rem;
             background-color: #40826d;
             color: white;
-            font-size: 30px;
-            border-radius: 40px;
+            font-size: 20px;
+            border-radius: 30px;
         }
 
         h1
         {
-            font-size: 70px;
             color: #29ab87;
+            font-size: 50px;
         }
     </style>
 </head>
 
 <body>
-
+    <!-- Main header of site -->
     <div class="mt-5">
         <h1 class="text-center fw-bold">Running Man</h1>
     </div>
 
+    <!-- Contains the main functions of site -->
     <div class="d-flex justify-content-center mt-5">
+
+        <!-- Current image of stance of running man -->
         <img id="running-stance" class="text-center mt-5" src="img/1.png" alt="">
+        <!-- Contains the 3 main buttons that either stop/start running man animation or makes it faster or slower -->
         <div class="d-flex flex-column justify-content-center">
             <div class="row">
                 <button class="btn fw-bold action-btn" onclick="increaseRunDelay()">Slower</button>
